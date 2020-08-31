@@ -14,10 +14,10 @@ public class FirstLesson  {
             "char\n" + "16-битный тип данных, предназначенный для хранения символов в кодировке Unicode\n" + "от '\\u0000' или 0 \n" + "до '\\uffff' или 65,535\n" +
             "boolean\n" + "логический тип данных\n" + "false, true\n");
     // 3 Написать метод вычисляющий выражение
-        int a = 2;
-        int b = 2;
-        int c = 2;
-        int d = 2;
+        int a = 1;
+        int b = 0;
+        int c = 10;
+        int d = 3;
     System.out.println(a * (b + (c / d)));
 
     // 4 Написать метод, принимающий на вход два числа, и проверяющий что их сумма лежит в пределах от 10 до 20
@@ -35,9 +35,9 @@ public class FirstLesson  {
      метод должен вернуть true, если число отрицательное*/
         static boolean isNegativeNumber (int number) {
             if (number < 0) {
-                true;
+               return true;
             } else {
-                 false;
+                return false;
             }
         }
 
